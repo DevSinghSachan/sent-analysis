@@ -3,10 +3,8 @@ import os
 import shutil
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer, TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
 import pandas as pd
-from nltk import word_tokenize
-from nltk.stem import WordNetLemmatizer
 
 REVIEW_DIR = "review_text"
 REVIEW_FILE = REVIEW_DIR + "/" + "product_user_review.txt"
